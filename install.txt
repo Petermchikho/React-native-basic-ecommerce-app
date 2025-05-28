@@ -1,0 +1,13 @@
+npx @react-native-community/cli init ecomerce
+npm react-native run-android
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+
+npm install @react-navigation/stack
+
+create 
+
+react-native.config.js then 
+npx react-native-asset 
+after adding fonts in the assets folder
+
