@@ -3,9 +3,11 @@ import React from 'react'
 import { fontSize, iconSize, spacing } from '../constants/dimensions'
 import { colors } from '../constants/colors'
 import { fontFamily } from '../constants/fonts'
+import Category from '../components/Category'
 
 const HomeScreen = () => {
   return (
+    
     <View style={styles.container}>
       <Text style={styles.headline}>Find your suitable watch now.</Text>
       {/* search input */}
@@ -24,6 +26,7 @@ const HomeScreen = () => {
         </View>
 
       </View>
+      <Category />
     </View>
   )
 }
